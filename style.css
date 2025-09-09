@@ -1,0 +1,47 @@
+.Toss{
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: blue;
+  color: antiquewhite;
+  margin-top: 30px;
+  margin: 10px;
+  margin-left: 0px;
+}
+.Toss:hover{
+  cursor: pointer;
+  background-color: rgb(122, 96, 146);
+  transform: scale(1.1);
+
+}
+body{
+  justify-items: center;
+}
+
+.win{
+  padding: 10px;
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  margin: 15px;
+
+}
+.win:hover{
+  transform: scale(1.1);
+  background-color: bisque;
+  border: none;
+  cursor: pointer;
+
+}
+.playgame{
+  padding: 10px;
+  background-color:yellow;
+  border: none;
+  border-radius: 10px;
+  color: rgb(3, 3, 15);
+
+}
+.playgame:hover{
+  cursor: pointer;
+  transform:scale(1.2)
+}
